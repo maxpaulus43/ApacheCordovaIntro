@@ -12,7 +12,8 @@
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener('resume', onResume.bind(this), false);
 
-        document.write("Hello World!!!")
+        document.write("Hello World!!!\n");
+        document.write("Max Paulus is the Apache Cordova Master!!");
         
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
     };
