@@ -1,14 +1,15 @@
 ﻿body {
-          font: 1em Sans-Serif;
-      }
+    font: 1em Sans-Serif;
+}
 
-      .flex {
-          display: -webkit-box;
-          display: flex;
-      }
+.flex {
+    display: -webkit-box;
+    display: flex;
+    padding: 0px 10px 0px;
+}
 
-          .flex > div:nth-child(2) {
-              -webkit-flex-grow: 1;
-              flex-grow: 1;
-              text-align: right;
-          }
+.flex > div:nth-child(2) {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    text-align: right;  
+}
